@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Container(
-                    padding: const EdgeInsets.all(30.0),
+                    padding: const EdgeInsets.all(10.0),
                     alignment: Alignment.centerRight,
                     child: Text(
                       userinput,
@@ -65,12 +65,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   const Divider(
                     indent: 35,
                     endIndent: 35,
-                    thickness: 2,
+                    thickness: 1,
                     color: Colors.black,
                   ),
                   Container(
                     padding:
-                        const EdgeInsets.only(right: 35, top: 30, bottom: 30),
+                        const EdgeInsets.only(right: 35, top: 10, bottom: 30),
                     alignment: Alignment.centerRight,
                     child: Text(
                       useroutput,
